@@ -1,8 +1,11 @@
 var express = require('express');
 var app     = express();
 var cors    = require('cors');
+<<<<<<<< HEAD:pages/api/index.js
 var dal     = require('../../dal.js');
+========
 var dal     = require('../dal.js');
+>>>>>>>> 9c1b2844b094d0ded4c558f89da7397a85ebec83:pages/index.js
 const e = require('express');
 
 // used to serve static files from public directory
