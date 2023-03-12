@@ -1,7 +1,7 @@
 var express = require('express');
 var app     = express();
 var cors    = require('cors');
-var dal     = require('./dal.js');
+var dal     = require('../../dal.js');
 const e = require('express');
 
 // used to serve static files from public directory
@@ -98,6 +98,6 @@ app.get('/account/all', function (req, res) {
     });
 });
 
-var port = 3000;
+var port = 4000;
 app.listen(port);
 console.log('Running on port: ' + port);
